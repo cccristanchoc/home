@@ -1,13 +1,12 @@
 var up, down, img;
 
-// function settings() {
-//
-// }
+function preload() {
+  up = loadImage('images/face-up.png');
+  down = loadImage('images/face-down.png');
+  img=down;
+}
 
 function setup() {
-  up = loadImage("images/face-up.png");
-  down = loadImage("images/face-down.png");
-  img=down;
   var canvas = createCanvas(img.width/2,img.height/2);
   // Move the canvas so it’s inside our <div id="sketch-holder">.
   canvas.parent('sketch');
