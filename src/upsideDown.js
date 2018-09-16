@@ -1,5 +1,9 @@
 var up, down, img;
 
+// function settings() {
+//
+// }
+
 function setup() {
   up = loadImage("images/face-up.png");
   down = loadImage("images/face-down.png");
